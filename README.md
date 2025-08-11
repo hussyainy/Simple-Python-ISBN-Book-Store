@@ -12,7 +12,7 @@ Data: 100 ISBN buku Melayu dengan harga realistik.
 
 ## 🛠 Teknologi
 - Python 3.x
-- Standard library sahaja: `tkinter`, `dataclasses` (opsyenal untuk versi console), `shutil`, `os`.
+- Standard library sahaja: `tkinter`, `dataclasses` (optional untuk versi console), `shutil`, `os`.
 
 ## 📂 Struktur
 ```
