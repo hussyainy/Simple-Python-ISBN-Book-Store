@@ -42,12 +42,6 @@ python bookstore_gui.py
 **GUI Preview**  
 ![GUI](assets/gui-preview.png)
 
-**CLI – Carian berjaya (ISBN tepat)**  
-![Buku dijumpai](assets/screenshot-found.png)
-
-**CLI – Cadangan bila ISBN tak dijumpai (murah → mahal)**  
-![Cadangan ISBN](assets/screenshot-suggest.png)
-
 ## 🧱 Data Struktur
 - Versi console boleh guna `@dataclass Book` — field: `isbn: int`, `title: str`, `author: str`, `price: float`.
 - `book_data.py` simpan senarai dict; boleh convert → `Book` dalam skrip utama jika mahu lebih kemas.
