@@ -48,11 +48,11 @@ python bookstore_gui.py
 **CLI – Cadangan bila ISBN tak dijumpai (murah → mahal)**  
 ![Cadangan ISBN](assets/screenshot-suggest.png)
 
-## 🧱 Data Struktur (Opsyenal)
+## 🧱 Data Struktur
 - Versi console boleh guna `@dataclass Book` — field: `isbn: int`, `title: str`, `author: str`, `price: float`.
 - `book_data.py` simpan senarai dict; boleh convert → `Book` dalam skrip utama jika mahu lebih kemas.
 
-## 🧮 Kompleksiti (Big‑O)
+## 🧮 Complexity (Big‑O)
 | Komponen                           | Masa           | Ruang | Nota |
 |------------------------------------|----------------|-------|------|
 | Merge Sort (sort harga)            | O(n log n)     | O(n)  | Stabil; sesuai data besar |
