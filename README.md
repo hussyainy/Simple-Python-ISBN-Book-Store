@@ -21,9 +21,7 @@ Data: 100 ISBN buku Melayu dengan harga realistik.
 ├── bookstore_gui.py     # Versi GUI (Tkinter)
 ├── book_data.py         # 100 ISBN buku Melayu
 └── assets/
-    ├── screenshot-found.png     # Contoh output CLI - jumpa
-    ├── screenshot-suggest.png   # Contoh output CLI - cadangan
-    └── gui-preview.png          # Pratonton GUI
+    └── gui-preview.png          # Contoh GUI
 ```
 
 ## 🚀 Cara Jalankan
