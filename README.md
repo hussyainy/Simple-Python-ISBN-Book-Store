@@ -43,3 +43,13 @@ python bookstore.py
 
 ## 📜 Lesen
 MIT — bebas guna & ubah suai.
+## 🧱 Data Struktur
+- Guna `@dataclass Book` dengan field: `isbn: int`, `title: str`, `author: str`, `price: float`.
+- `book_data.py` kekal simpan dict; dalam `bookstore.py` kita convert dict → `Book` supaya kod lebih kemas.
+
+## 🧮 Kompleksiti (Big‑O)
+| Komponen                         | Masa            | Ruang  | Nota ringkas |
+|----------------------------------|-----------------|--------|--------------|
+| Merge Sort (sort harga)          | O(n log n)      | O(n)   | Stabil; sesuai data besar |
+| Binary Search (cari ISBN tepat)  | O(log n)        | O(1)   | Perlu data **sorted by ISBN** |
+| Cadangan (prefix/nearest)        | O(n) → O(n log n) | O(1) / O(n) | Scan/prefix; nearest guna sort untuk ranking top 5 |
